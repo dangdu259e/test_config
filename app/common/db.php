@@ -11,5 +11,7 @@
     // thông báo lỗi nếu có
     catch(PDOException $e){
         echo "Connection failed" . $e -> getMessage();
+        echo "Connection failed" . $e -> getMessage();
+
     }
 ?>
